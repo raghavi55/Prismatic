@@ -1,8 +1,9 @@
+0- Download all *.m files in a single directory.
 1- Run "main.m" file in MATLAB.
 2- Change the dialogbox defualt values if you want to run for a different environment.
 	Number of rays: The number of optical rays that will be used for simulation.
 	Refraction index: The refraction index of the prism.
-	Simulation, on=1, off=0: If it set 1, the process of simulation will be shown graphically (but in expense of lower speed).
+	Simulation, on=1, off=0: If set 1, the process of simulation will be shown graphically (but in expense of lower speed!).
 	        Only 1/1000 of simulated rays are shown graphically.
 	Reflection: The reflection coefficient of absorbing surfaces.
 	Apex_0: The smallest apex angle which is used for the starting of simulation. (Simulation will be performed for prisms 
