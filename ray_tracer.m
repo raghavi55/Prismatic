@@ -73,17 +73,17 @@ for li=1:N_ray% N_ray is the total number of rays
         end
             switch jj%
                 case {6}% Enclosure walls on x axis
-                   %di(1)=-di(1);%
-                   r(1)=-r(1); jj=7;     %   col=[.1,.1,.1]; %black 
+                   di(1)=-di(1);%
+                   %r(1)=-r(1); jj=7;     %   col=[.1,.1,.1]; %black 
                 case {7}% Enclosure walls on x axis
-                   %di(1)=-di(1);%
-                   r(1)=-r(1); jj=6;                   
+                   di(1)=-di(1);%
+                   %r(1)=-r(1); jj=6;                   
                 case {8}%Enclosure walls on y axis
-                   %di(2)=-di(2);%    
-                   r(2)=-r(2); jj=9;%%    col=[.1,.1,.1]; %black 
+                   di(2)=-di(2);%    
+                   %r(2)=-r(2); jj=9;%%    col=[.1,.1,.1]; %black 
                 case {9}%Enclosure walls on y axis
-                   %di(2)=-di(2);%    
-                   r(2)=-r(2); jj=8;%di(2)=-di(2);%    %    col=[.1,.1,.1]; %black 
+                   di(2)=-di(2);%    
+                   %r(2)=-r(2); jj=8;%di(2)=-di(2);%    %    col=[.1,.1,.1]; %black 
                 case {10} %Atop source
                     if rand<=reflect
                         di(3)=-cosd(asind(rand));
